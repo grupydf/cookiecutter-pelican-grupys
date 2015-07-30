@@ -41,7 +41,7 @@ Plugins & Tema
 
 Boa parte das funcionalidades "visuais" dos sites são implementadas no tema, através de *templates* Jinja2 e funções em Python. Para uma lista completa de funcionalidades leia a documentação do tema `Malt`_.
 
-Já as funcionalidades funcionais do site são controladas por plugins (todos localizados no diretório `.plugins`), neste "Site Demo" estão ativos os seguintes plugins:
+Já a parte funcional do site é controlada por plugins (todos localizados no diretório `.plugins`), neste "Site Demo" estão ativos os seguintes plugins:
 
 - *Better Figures and Images*: Adiciona informações de tamanho de imagens automaticamente;
 - *Sitemap*: Gera um sitemap para o site;
