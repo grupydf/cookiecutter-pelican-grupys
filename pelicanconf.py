@@ -10,15 +10,30 @@ sys.path.append(os.curdir)
 from baseconf import *
 from collections import OrderedDict
 
-AUTHOR = u'Grupy-XYZ'
-SITENAME = u'Grupy-XYZZ'
-SITEURL = ''
-
+# Configurações Base
+SITENAME = u'Grupy-XYZ'
+AUTHOR = u'Autor-Padrão'
 THEME = "malt"
 
+# Referências à Github
+GITHUB_REPO = "http://github.com/grupy-xyz/grupy-xyz.github.io"
+GITHUB_BRANCH = "pelican"
+
+# Imagens
+ARTICLE_BANNERS_FOLDER = "images/banners"
+SITE_LOGO = "images/logo.png"
+SITE_LOGO_MOBILE = "images/logo-mobile.png"
+
+# Home settings
+WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
+WELCOME_TEXT = "Grupo de usuários da linguagem Python em XYZ."
+SITE_BACKGROUND_IMAGE = "images/banners/background.png"
+FOOTER_ABOUT = "O Grupy-XYZ é uma comunidade de usuários... bla bla bla... "
+
+# Tema do Syntax Hightlight
 PYGMENTS_STYLE= "perldoc"
 
-# Navbar Links
+# Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
     {
         "title" : "Comunidade",
@@ -34,6 +49,7 @@ NAVBAR_HOME_LINKS = [
     },
 ]
 
+# Navbar Links do Blog
 NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
     {
         "title" : "Categorias",
@@ -49,6 +65,7 @@ NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
     },
 ]
 
+# Links sociais do rodapé
 SOCIAL_LINKS = (
     {
         "href": "https://github.com/grupydf",
@@ -67,6 +84,7 @@ SOCIAL_LINKS = (
     },
 )
 
+# Membros do Grupy
 MEMBROS = OrderedDict((
     ("Magnun Leno", {
         "twitter": "@mind_bend",
