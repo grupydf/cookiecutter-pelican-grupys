@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 ### Base settings
+SITEURL = ''
 DEFAULT_LANG = u'pt'
 DEFAULT_PAGINATION = False
 TIMEZONE = 'America/Sao_Paulo'
