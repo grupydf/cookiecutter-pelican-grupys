@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 DEFAULT_LANG = u'pt'
 DEFAULT_PAGINATION = False
 TIMEZONE = 'America/Sao_Paulo'
+SUMMARY_MAX_LENGTH = 35
 
 ### URL and Page generation settings
 ARTICLE_URL = 'blog/{slug}'
