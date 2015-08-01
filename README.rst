@@ -16,7 +16,7 @@ Para utilizar este demo para o *bootstrap* do seu GrupyBR primeiramente faça um
 
 .. code::
 
-    $ git clone git@github.com:magnunleno/grupybr-template.git && cd grupybr-template
+    $ git clone --recursive git@github.com:magnunleno/grupybr-template.git && cd grupybr-template
 
 
 Em seguida crie um *Virtual Environment* e instale todos os pré-requisitos do Pelican:
