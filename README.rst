@@ -23,7 +23,7 @@ Em seguida crie um *Virtual Environment* e instale todos os pré-requisitos do P
 
 .. code::
 
-    $ mkfir ~/venv
+    $ mkdir ~/venv
     $ virtualenv --prompt "(grupybr)" ~/venv/grupybr
     $ . ~/venv/grupy-df/bin/activate
     $ pip install -r requirements.txt

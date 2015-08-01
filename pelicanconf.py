@@ -13,7 +13,7 @@ from collections import OrderedDict
 # Configurações Base
 SITENAME = u'Grupy-XYZ'
 AUTHOR = u'Autor-Padrão'
-THEME = "malt"
+THEME = "themes/malt"
 
 # Referências à Github
 GITHUB_REPO = "http://github.com/grupy-xyz/grupy-xyz.github.io"
@@ -31,20 +31,20 @@ SITE_BACKGROUND_IMAGE = "images/banners/background.png"
 FOOTER_ABOUT = "O Grupy-XYZ é uma comunidade de usuários... bla bla bla... "
 
 # Tema do Syntax Hightlight
-PYGMENTS_STYLE= "perldoc"
+PYGMENTS_STYLE = "perldoc"
 
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
     {
-        "title" : "Comunidade",
-        "href" : "comunidade",
+        "title": "Comunidade",
+        "href": "comunidade",
     },
     {
-        "title" : "Membros",
+        "title": "Membros",
         "href": "membros",
     },
     {
-        "title" : "Blog",
+        "title": "Blog",
         "href": "blog",
     },
 ]
@@ -52,15 +52,15 @@ NAVBAR_HOME_LINKS = [
 # Navbar Links do Blog
 NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
     {
-        "title" : "Categorias",
+        "title": "Categorias",
         "href": "blog/categorias",
     },
     {
-        "title" : "Autores",
+        "title": "Autores",
         "href": "blog/autores",
     },
     {
-        "title" : "Tags",
+        "title": "Tags",
         "href": "blog/tags",
     },
 ]
@@ -96,4 +96,4 @@ MEMBROS = OrderedDict((
         }),
 ))
 
-from malt.functions import *
+from themes.malt.functions import *
