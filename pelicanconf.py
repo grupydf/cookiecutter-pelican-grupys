@@ -14,6 +14,7 @@ from collections import OrderedDict
 SITENAME = u'Grupy-XYZ'
 AUTHOR = u'Autor-Padrão'
 THEME = "themes/malt"
+MALT_BASE_COLOR = "blue-grey"
 
 # Referências à Github
 GITHUB_REPO = "http://github.com/grupy-xyz/grupy-xyz.github.io"
