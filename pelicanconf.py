@@ -97,4 +97,109 @@ MEMBROS = OrderedDict((
         }),
 ))
 
+MALT_HOME = [
+    {
+        "color": "blue-grey lighten-5",
+        "title": "O que Fazemos?",
+        "items": [
+            {
+                "title": "Comunidade",
+                "icon": "fa-comments",
+                "text": "A comunidade do GrupyXYZ se comunica através de mailing " +\
+                    "lists, grupo no telegram e no slack, mas frequentemente são " +\
+                    "promovidos encontros diversos, como almoços, " +\
+                    "<em>coding dojos</em> e palestras. ",
+                "buttons": [
+                    {
+                        "text": "Saiba Mais",
+                        "href": "/comunidade",
+                    },
+                ],
+            },
+            {
+                "title": "Membros",
+                "icon": "fa-users",
+                "text": "A comunidade do GrupyXYZ, apesar de extensa possui alguns " +\
+                        "colaboradores principais, responsáveis por organizar " +\
+                        "eventos, manter a comunicação ativa, divulgar eventos, " +\
+                        "redes sociais e etc. ",
+                "buttons": [
+                    {
+                        "text": "Conheça",
+                        "href": "/membros",
+                    },
+                ],
+            },
+            {
+                "title": "Projetos",
+                "icon": "fa-briefcase",
+                "text": " Atualmente o GrupyXYZ possui poucos projetos em andamento:" +\
+                        "Traduções do Django-docs e Python on Campus.",
+                "buttons": [
+                    {
+                        "text": "Mais detalhes",
+                        "href": "/projetos",
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        "color": "blue-grey lighten-4",
+        "title": "Nosso Projetos",
+        "items": [
+            {
+            "title": "MIG-29",
+            "icon": "fa-fighter-jet",
+            "text": "MIG-29 é um caça Russo cujo projeto original visava" +\
+                    "superar o F-22 Raptor",
+            "buttons": [
+                    {
+                        "text": "Código Fonte",
+                        "href": "#",
+                    },
+                    {
+                        "text": "Wiki",
+                        "href": "#",
+                    },
+                ]
+            },
+            {
+            "title": "SNES",
+            "icon": "fa-gamepad",
+            "text": "O Super Nintendo Entertainment Systems visa superar" +\
+                    "o sucesso de seu antecessor, o NES.",
+            "buttons": [
+                    {
+                        "text": "Site",
+                        "href": "#",
+                    },
+                    {
+                        "text": "Comprar",
+                        "href": "#",
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        "color": "blue-grey lighten-5",
+        "title": "Entre em Contato",
+        "items": [
+            {
+            "title": "",
+            },
+            {
+            "icon": "fa-envelope",
+            "buttons": [
+                    {
+                        "text": "Envie um e-mail!",
+                        "href": "#",
+                    },
+                ]
+            }
+        ]
+    }
+    ]
+
 from themes.malt.functions import *
