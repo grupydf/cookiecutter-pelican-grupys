@@ -112,7 +112,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Saiba Mais",
-                        "href": "/comunidade",
+                        "href": "comunidade",
                     },
                 ],
             },
@@ -126,7 +126,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Conheça",
-                        "href": "/membros",
+                        "href": "membros",
                     },
                 ],
             },
@@ -138,7 +138,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Mais detalhes",
-                        "href": "/projetos",
+                        "href": "projetos",
                     },
                 ],
             },
