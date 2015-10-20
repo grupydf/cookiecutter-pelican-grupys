@@ -53,6 +53,7 @@ PLUGIN_PATHS = ['./.plugins']
 PLUGINS = [
         'better_figures_and_images',
         'sitemap',
+        'welcome-helpers',
         ]
 
 # Plugins settings
