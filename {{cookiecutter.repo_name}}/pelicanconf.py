@@ -11,13 +11,13 @@ from baseconf import *
 from collections import OrderedDict
 
 # Configurações Base
-SITENAME = u'Grupy-XYZ'
-AUTHOR = u'Autor-Padrão'
+SITENAME = u'{{ cookiecutter.grupy_name }}'
+AUTHOR = u'{{ cookiecutter.grupy_name }}'
 THEME = "themes/malt"
-MALT_BASE_COLOR = "blue-grey"
+MALT_BASE_COLOR = "{{ cookiecutter.template_color }}"
 
 # Referências à Github
-GITHUB_REPO = "http://github.com/grupy-xyz/grupy-xyz.github.io"
+GITHUB_REPO = "http://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
 GITHUB_BRANCH = "pelican"
 
 # Imagens
@@ -27,9 +27,9 @@ SITE_LOGO_MOBILE = "images/logo-mobile.png"
 
 # Home settings
 WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
-WELCOME_TEXT = "Grupo de usuários da linguagem Python em XYZ."
+WELCOME_TEXT = "Grupo de usuários da linguagem Python."
 SITE_BACKGROUND_IMAGE = "images/banners/background.png"
-FOOTER_ABOUT = "O Grupy-XYZ é uma comunidade de usuários... bla bla bla... "
+FOOTER_ABOUT = "O {{ cookiecutter.grupy_name }} é uma comunidade de usuários..."
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = "perldoc"
@@ -69,9 +69,9 @@ NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
 # Links sociais do rodapé
 SOCIAL_LINKS = (
     {
-        "href": "https://github.com/grupydf",
+        "href": "https://github.com/{{ cookiecutter.github_username }}",
         "icon": "fa-github",
-        "text": "Grupy-DF",
+        "text": "{{ cookiecutter.grupy_name }}",
     },
     {
         "href": "http://wiki.python.org.br/",
@@ -87,12 +87,12 @@ SOCIAL_LINKS = (
 
 # Membros do Grupy
 MEMBROS = OrderedDict((
-    ("Magnun Leno", {
-        "twitter": "@mind_bend",
-        "github": "magnunleno",
+    ("Nome Membro", {
+        "twitter": "@membro",
+        "github": "membro",
         "site": {
-            "nome": "Mind Bending",
-            "href": "http://mindbending.org",
+            "nome": "Site Membro",
+            "href": "http://sitemembro.com",
             }
         }),
 ))
@@ -105,7 +105,7 @@ MALT_HOME = [
             {
                 "title": "Comunidade",
                 "icon": "fa-comments",
-                "text": "A comunidade do GrupyXYZ se comunica através de mailing " +\
+                "text": "Nos comunicamos através de mailing " +\
                     "lists, grupo no telegram e no slack, mas frequentemente são " +\
                     "promovidos encontros diversos, como almoços, " +\
                     "<em>coding dojos</em> e palestras. ",
@@ -119,7 +119,7 @@ MALT_HOME = [
             {
                 "title": "Membros",
                 "icon": "fa-users",
-                "text": "A comunidade do GrupyXYZ, apesar de extensa possui alguns " +\
+                "text": "A comunidade {{ cookiecutter.grupy_name }}, apesar de extensa possui alguns " +\
                         "colaboradores principais, responsáveis por organizar " +\
                         "eventos, manter a comunicação ativa, divulgar eventos, " +\
                         "redes sociais e etc. ",
@@ -133,7 +133,7 @@ MALT_HOME = [
             {
                 "title": "Projetos",
                 "icon": "fa-briefcase",
-                "text": " Atualmente o GrupyXYZ possui poucos projetos em andamento:" +\
+                "text": " Atualmente possuimos poucos projetos em andamento:" +\
                         "Traduções do Django-docs e Python on Campus.",
                 "buttons": [
                     {

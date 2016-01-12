@@ -1,5 +1,5 @@
-Grupy-DF
-########
+Home
+====
 :slug: index
 :template: home
 
